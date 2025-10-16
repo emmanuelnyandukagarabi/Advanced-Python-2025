@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>tblastn</BlastOutput_program>
+  <BlastOutput_version>TBLASTN 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>est</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2623219</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>312</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2623219</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>312</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|557433046|emb|HE989719.1|</Hit_id>
+  <Hit_def>HE989719 Guillardia theta CCMP 327 Guillardia theta cDNA clone GT50c04, mRNA sequence</Hit_def>
+  <Hit_accession>HE989719</Hit_accession>
+  <Hit_len>720</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>4.57403e-26</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>720</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>NSVAIGAHWSCFIVLTITTFYLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGNYRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCY</Hsp_qseq>
+      <Hsp_hseq>NPIVIAADWIGFIALFGSSLAVAYKLVTFKGPDQGDVYFFGYREEKMISVFVNLFAALAYWAKLAS----HANGDVGP-AASVTTYKYLDYLFTCPLLTIDLLWCLNLPYKFTFGAIVAVCILCAFMASVI---PPPAR---YMWFGMGITVFSTAWFNILKLVRM---RLEQFVSKEAKEVR-QSLKVACMTYFFIWLGYPTLWVLGDAGV--LDSVVSALLHTFLDVFSKSIY</Hsp_hseq>
+      <Hsp_midline>N + I A W  FI L  ++  + Y+  T +GP +   ++ GY+EE+ +++FVN FA L+Y+ K+ +    H  GDVGP       Y+Y DY+ TCP+L  DLL+ L  PY+ +  AI+   ++   +A       P  R   Y W+G G   F  A+  ++ +V     RL Q       E     LK A  T+  +W+ +P +W +   G   +D   + + H   D+ +KS Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|117388893|gb|EG723348.1|</Hit_id>
+  <Hit_def>GTE00011425 Guillardia theta non-normalised Guillardia theta cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>EG723348</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>2.27714e-08</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>TCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFALARFRKTYDEE</Hsp_qseq>
+      <Hsp_hseq>TCPLLTIDLLWCLNLPYKFTFGAIVAVCILCAFMASVI---PPPAR---YMWFGMGITVFSAAWFNILKLVRM---RLEQFVSKE-AKKVRQSLKVACMTYFFIWLGYPTLWVLGDAGV--LDSVVSALLHTFLDVFSKSIYGFALLHFVMRTDKR</Hsp_hseq>
+      <Hsp_midline>TCP+L  DLL+ L  PY+ +  AI+   ++   +A       P  R   Y W+G G   F  A+  ++ +V     RL Q      A+     LK A  T+  +W+ +P +W +   G   +D   + + H   D+ +KS YGFAL  F    D+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|404500832|gb|JK811737.1|</Hit_id>
+  <Hit_def>Cr_DMidi_601A04_T3primer Dry lichen library - midi Cladonia rangiferina cDNA clone Cr_DMidi_601A04, mRNA sequence</Hit_def>
+  <Hit_accession>JK811737</Hit_accession>
+  <Hit_len>881</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>0.000148364</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>875</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>WSCFIVLTITTFYLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGNY----------------RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGF</Hsp_qseq>
+      <Hsp_hseq>WVVFVIMLISS--LAFYIMAFRVPVQKRMFHI-------LTAFITTFAMISYYAMAVHDGVGKN-----EIVIKQSNKHTPDTTKTIYREVYWARYVDWSVTTPLLLLDLCLLAGLPGANILVAIVADVIMILTGLFAAFTVEEGPK-----WGYYAIAC----IAYLVIIYQLAFNGRGVVQNKDKKTATFFSAIAGFTL----VLWTVYPIIWGIA-DGSRNINVDAEIVAYAVLDVLAKPVFGF</Hsp_hseq>
+      <Hsp_midline>W  F+++ I++  L +     R P ++  F+        L  F+  FAM+SY+   V D +G N       +I   N                 RY D+ +T P+L+ DL      P      AI+  ++M  +G+ A F  E  P+     + +Y   C     AY +++  +A     + Q      A     +  F +    +LW ++P++W I   G   I+ +   VA+ V D++AK  +GF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|106857493|gb|EC175870.1|</Hit_id>
+  <Hit_def>PLE00005582 Pavlova lutheri Non-normalized Pavlova lutheri cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>EC175870</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>0.00133705</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>590</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAP-----YRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFAL</Hsp_qseq>
+      <Hsp_hseq>RYVDWALTTPLLLLDIGLLANAPLAHIAYVIGCDVLMIVGGLVGPL--LFAANDP----AKWLLFYIGCFWFL---PILYAMMVEWKTTLTDKARP--------VYNVIANGTVVLWCAYPVMWAMC-EGTGMLSDETEVILYLVLDMVAKSGLGFIL</Hsp_hseq>
+      <Hsp_midline>RY D+ LT P+L+ D+     AP     Y + C  ++    + G L   +A  DP      +  +  GCFWF+    I+ +++ +  + L   A+         V         +LW  +P++WA+C  G G + D    + + V D+VAKS  GF L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|166811462|gb|FD679889.1|</Hit_id>
+  <Hit_def>CBHW3028.fwd CBHW Mycosphaerella fijiensis MfEST4 Minimal medium with nitrogen (H) Pseudocercospora fijiensis cDNA clone CBHW3028 5&apos;, mRNA sequence</Hit_def>
+  <Hit_accession>FD679889</Hit_accession>
+  <Hit_len>790</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.00146462</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>784</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>HWSCFIVLTITTFYLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIF--AILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>YWTVCAVMTVATF--AFIALSATKPRQDRIFHY-ITAGVTMVAAIAYFTMGSHLGFTPIDV---EFARSGPKVAGVNREIYYVRYIDWFITTPLLLMDLMLTAAMPWPTTAWVILVDEVMIITGLVGA--------LVSSSYKWGYFVFGCVALIW---IVYVLVWEARKHAYGVSSDAG-----KAFMFCGSLTALLWTLYPIAWGVS-EGGNVIAPDSEAVFYGILDILAKPGFG</Hsp_hseq>
+      <Hsp_midline>+W+   V+T+ TF   + + ++  P +   F+        +   + +F M S+ G    D     F   GP + G        RY D+ +T P+L+ DL+     P+  +   I+    ++++G++          L + +Y W  + FGC   I+   IV  +V +       ++ D G         F     ++LW L+P+ W +   G   I  +   V + + DI+AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|166827626|gb|FD694052.1|</Hit_id>
+  <Hit_def>CBHY489.fwd CBHY Mycosphaerella fijiensis MfEST5 Minimal medium without nitrogen (L) Pseudocercospora fijiensis cDNA clone CBHY489 5&apos;, mRNA sequence</Hit_def>
+  <Hit_accession>FD694052</Hit_accession>
+  <Hit_len>834</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.00154064</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>811</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>HWSCFIVLTITTFYLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIF--AILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFAL</Hsp_qseq>
+      <Hsp_hseq>YWTVCAVMTVATF--AFIALSATKPRQDRIFHY-ITAGVTMVAAIAYFTMGSHLGFTPIDV---EFARSGPKVAGVNREIYYVRYIDWFITTPLLLMDLMLTAAMPWPTTAWVILVDEVMIITGLVGA--------LVSSSYKWGYFVFGCVALIW---IVYVLVWEARKHAYGVSSDAG-----KAFMFCGSLTALLWTLYPIAWGVS-EGGNVIAPDSEAVFYGILDILAKPGFGALL</Hsp_hseq>
+      <Hsp_midline>+W+   V+T+ TF   + + ++  P +   F+        +   + +F M S+ G    D     F   GP + G        RY D+ +T P+L+ DL+     P+  +   I+    ++++G++          L + +Y W  + FGC   I+   IV  +V +       ++ D G         F     ++LW L+P+ W +   G   I  +   V + + DI+AK  +G  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|317514613|dbj|FS594252.1|</Hit_id>
+  <Hit_def>FS594252 P. gelidicola cDNA library at treatment condition (minus 4 degree) Pyramimonas gelidicola cDNA clone AnM-T-2-2a-T3_A14 5&apos;, mRNA sequence</Hit_def>
+  <Hit_accession>FS594252</Hit_accession>
+  <Hit_len>829</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.00572458</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>815</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDL--LYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG----FALARFRKTYDEELFRLLEQLGHDEDEFQ</Hsp_qseq>
+      <Hsp_hseq>RYMEWLITCPVLLIALSNLTGLKDDYNWRTMKLITAD--QGTIL-FGATGALATGTVKPVFFCVGLMYGGVTYFTALEVYVESYANVPPNAKKT--------VSIMAYMFFLSWMCFPLFWLLGQEGFGHVNQHVSTTLHAIADLFSKNLWGLYSWYLRLQVREYHRKKWHEEQERLNQGEKEFE</Hsp_hseq>
+      <Hsp_midline>RY ++++TCP+L+  L  L  L+  Y      +I A    G +  F A G          ++  G  +    Y   + +  + Y+ +   A+ T        +    + F + W+ FPL W +   GFG ++ + +   H + D+ +K+ +G    +   + R+ + ++     E+L   E EF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|209786189|emb|FM225512.1|</Hit_id>
+  <Hit_def>FM225512 Library 4 Zymoseptoria tritici cDNA clone 10465, mRNA sequence</Hit_def>
+  <Hit_accession>FM225512</Hit_accession>
+  <Hit_len>767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.0388038</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>729</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>WSCFIVLTITTFYLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGNY-----------RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFALARFRKTYDEE</Hsp_qseq>
+      <Hsp_hseq>WVVFVVMLVSSIIFTGMAWSV--PVSKRLYHI-------ITTMITIFATLSYFAMASGHGISYNHTEVRESHKHVPDTTHDVYRQVYWARYVDWTVTTPLLLLDLALLAGLNGATIFITIVADIIMILTGLFAAFGTEGTPQ----KWGWYAIACIAYLVV--IWMLVVHGRQSASGKGNKVGGFYASIGALT------PHLWTIYPIIWGVA-DGSRILDVDEEIISYAVLDILAKPVFGCLVVVHQQPYPRE</Hsp_hseq>
+      <Hsp_midline>W  F+V+ +++      +W+   P  +  ++        +   +  FA LSYF       + +N  +V        +            RY D+ +T P+L+ DL              I+  I+M  +G+ A F  EG P+     + WY   C  ++    I M +V  + S   +  +  G   S+  L         LW ++P++W +   G   +D +   +++ V DI+AK  +G  +   ++ Y  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|117385199|gb|EG719654.1|</Hit_id>
+  <Hit_def>GTE00003690 Guillardia theta non-normalised Guillardia theta cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>EG719654</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.0421941</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>715</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>FIVLTITTFYLGYESWTSRGPSK---RTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGNYRYADYMLTCPMLVYDL-LYQLRAPYRVSCSAIIFAILMSGVLA-EFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFALARFRKTYDEEL</Hsp_qseq>
+      <Hsp_hseq>FIVFACITLLLGINAAKSKAASRVLFPATFVTGIAS-------IAYFSMASGGGWVIAPDCRQLF-----------VARYLDWLITTPLLLIDLGLVAGVSRWD------IMALCLSDVLMIATGAFGSLTVGNVKWVWWFFGMCWF-------LHIIFALGKSWAEAAKAKGGDSASVYSKIAGITV-ITWFCYPVVW-VFAEGFGNFSVTFEVLIYGVLDVISKAVFGLILMSGAATGYESI</Hsp_hseq>
+      <Hsp_midline>FIV    T  LG  +  S+  S+     +F  G          + +F+M S  G ++A      F             RY D+++T P+L+ DL L    + +       I A+ +S VL     A G   + N  + W+ FG  WF       + I+       A+ A+  G + +    K A  T  + W  +P+VW +   GFG     +  + + V D+++K+ +G  L     T  E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|117383964|gb|EG718419.1|</Hit_id>
+  <Hit_def>GTE00016684 Guillardia theta non-normalised Guillardia theta cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>EG718419</Hit_accession>
+  <Hit_len>715</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.0486833</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>679</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>FIVLTITTFYLGYESWTSRGPSK---RTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGNYRYADYMLTCPMLVYDL-LYQLRAPYRVSCSAIIFAILMSGVLA-EFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFALARFRKTYDEEL</Hsp_qseq>
+      <Hsp_hseq>FIVFACITLLLGINAAKSKAASRVLFPATFVTGIAS-------IAYFSMASGGGWVIAPDCRQLF-----------VARYLDWLITTPLLLIDLGLVAGVSRWD------IMALCLSDVLMIATGAFGSLTVGNVKWVWWFFGMCWF-------LHIIFALGKSWAEAAKAKGGDSASVYSKIAGITV-ITWFCYPVVW-VFAEGFGNFSVTFEVLIYGVLDVISKAVFGLILMSGAATGYESI</Hsp_hseq>
+      <Hsp_midline>FIV    T  LG  +  S+  S+     +F  G          + +F+M S  G ++A      F             RY D+++T P+L+ DL L    + +       I A+ +S VL     A G   + N  + W+ FG  WF       + I+       A+ A+  G + +    K A  T  + W  +P+VW +   GFG     +  + + V D+++K+ +G  L     T  E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|148811985|gb|ES662907.1|</Hit_id>
+  <Hit_def>WS03919.C21_A23 SS-B-24 Picea sitchensis cDNA clone WS03919_A23 3&apos;, mRNA sequence</Hit_def>
+  <Hit_accession>ES662907</Hit_accession>
+  <Hit_len>827</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.085349</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYVDWTLTTPLLLIDLGLLAGLNGAHLLIAVIADIIMIQTGLFAAFGSEGTPQ----KWGWYAIAC----LAYLVVIWHLAVN-GRVQ--AKAKGSKVGKFFVAIAGFTV-VIWTLYPIVWGISD-GSRKVSVDSEIIAYAVLDILAKVVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ LT P+L+ DL             A+I  I+M  +G+ A F +EG P+     + WY   C     AY +V+  +A    R+   A+  G++     +  A FT  ++W L+P+VW I   G   +  +   +A+ V DI+AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|110875463|gb|DY292460.1|</Hit_id>
+  <Hit_def>IC0AAA80AB06RM1 CitNFL Citrus clementina cDNA 5&apos;, mRNA sequence</Hit_def>
+  <Hit_accession>DY292460</Hit_accession>
+  <Hit_len>1168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.14258</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>914</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>WSCFIVLTITTFYLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVA-----------DTLGHNFGDVG-PFIIGFGNYRYADYMLTCPMLVYDLLYQLRAPYRVSCSAII--FAILMSGVLAEFYAEGDPRLRNGAYAWYGFGCF-WFIFAYSIVM---SIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGF</Hsp_qseq>
+      <Hsp_hseq>WVVFVIMLVSSLAFYAMAW--RVPVQKRLFHI-------LTALITTFATISYYAMAVGHGTSWHSTSTTQTHDHGIPDIEIPMKREVYWARYVDWSVTTPLLLLDLCLLAGVSGANILVAIIADLVMVLTGLFAALTQEGNEADEKAKWGYYAMACVAYLVIVYQLAVGGRGTVAKKDKKTATFYAAIGG-----------FTL-LLWTVYPIIWGIADGSY-IIGVDAEIVAYAVLDVLAKPVFGF</Hsp_hseq>
+      <Hsp_midline>W  F+++ +++      +W  R P ++  F+        L   +  FA +SY+   V             T  H   D+  P        RY D+ +T P+L+ DL             AII    ++++G+ A    EG+       + +Y   C  + +  Y + +     VAK+  + A      G            FT  +LW ++P++W I    +  I  +   VA+ V D++AK  +GF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|47030091|emb|AJ637035.1|</Hit_id>
+  <Hit_def>AJ637035 MgB Zymoseptoria tritici cDNA clone mgb0582f, mRNA sequence</Hit_def>
+  <Hit_accession>AJ637035</Hit_accession>
+  <Hit_len>661</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.205264</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>540</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYVDWTVTTPLLLLDLALLAGLNGATIFITIVADIIMILTGLFAAFGTEGTPQ----KWGWYAIAC----IAYLVVIWMLVVHGR---QSASGKGNKVGGFYASIGAFTL-ILWTIYPIIWGVA-DGSRILDVDEEIISYAVLDILAKPVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL              I+  I+M  +G+ A F  EG P+     + WY   C     AY +V+ ++        Q A   G +          FT  +LW ++P++W +   G   +D +   +++ V DI+AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|209789519|emb|FM232119.1|</Hit_id>
+  <Hit_def>FM232119 Library 5 Zymoseptoria tritici cDNA clone 17072, mRNA sequence</Hit_def>
+  <Hit_accession>FM232119</Hit_accession>
+  <Hit_len>727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.339499</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>565</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYVDWTVTTPLLLLDLALLAGLNGATIFITIVADIIMILTGLFAAFGTEGTPQ----KWGWYAIAC----IAYLVVIWMLVVHGR---QSASGKGNKVGGFYASIGAFTL-ILWTIYPIIWGVA-DGSRILDVDEEIISYAVLDILAKPVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL              I+  I+M  +G+ A F  EG P+     + WY   C     AY +V+ ++        Q A   G +          FT  +LW ++P++W +   G   +D +   +++ V DI+AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|47032508|emb|AJ639451.1|</Hit_id>
+  <Hit_def>AJ639451 MgC Zymoseptoria tritici cDNA clone mgc19b05f, mRNA sequence</Hit_def>
+  <Hit_accession>AJ639451</Hit_accession>
+  <Hit_len>702</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.363242</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>530</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYVDWTVTTPLLLLDLALLAGLNGATIFITIVADIIMILTGLFAAFGTEGTPQ----KWGWYAIAC----IAYLVVIWMLVVHGR---QSASGKGNKVGGFYASIGAFTL-ILWTIYPIIWGVA-DGSRILDVDEEIISYAVLDILAKPVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL              I+  I+M  +G+ A F  EG P+     + WY   C     AY +V+ ++        Q A   G +          FT  +LW ++P++W +   G   +D +   +++ V DI+AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|209784904|emb|FM219121.1|</Hit_id>
+  <Hit_def>FM219121 Library 2 Zymoseptoria tritici cDNA clone 04074, mRNA sequence</Hit_def>
+  <Hit_accession>FM219121</Hit_accession>
+  <Hit_len>762</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.419135</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYVDWTVTTPLLLLDLALLAGLNGATIFITIVADIIMILTGLFAAFGTEGTPQ----KWGWYAIAC----IAYLVVIWMLVVHGR---QSASGKGNKVGGFYASIGAFTL-ILWTIYPIIWGVA-DGSRILDVDEEIISYAVLDILAKPVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL              I+  I+M  +G+ A F  EG P+     + WY   C     AY +V+ ++        Q A   G +          FT  +LW ++P++W +   G   +D +   +++ V DI+AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|209797198|emb|FM234029.1|</Hit_id>
+  <Hit_def>FM234029 Library 6 Zymoseptoria tritici cDNA clone 18982, mRNA sequence</Hit_def>
+  <Hit_accession>FM234029</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.471343</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYVDWTVTTPLLLLDLALLAGLNGATIFITIVADIIMILTGLFAAFGTEGTPQ----KWGWYAIAC----IAYLVVIWMLVVHGR---QSASGKGNKVGGFYASIGAFTL-ILWTIYPIIWGVA-DGSRILDVDEEIISYAVLDILAKPVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL              I+  I+M  +G+ A F  EG P+     + WY   C     AY +V+ ++        Q A   G +          FT  +LW ++P++W +   G   +D +   +++ V DI+AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|121503717|gb|EH393577.1|</Hit_id>
+  <Hit_def>FP-1_H10 S. nodorum miscellaneous cDNAs Parastagonospora nodorum SN15 cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>EH393577</Hit_accession>
+  <Hit_len>1174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.660561</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>969</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>66</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>WSCFIVLTITTFYLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFG----------KIVA----DTLGHNFGDVGPFIIGFGNYRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAI------LMSGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFS------MLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFAL----ARFRKTYDEEL</Hsp_qseq>
+      <Hsp_hseq>WVVFVLMIIASAGFTALSW--RVPLSKRLYH-------TITTMITIFAALSYFAMATGHGVSVQKIIVREQHDHVPDTFTEVHRQVFW---ARYVDWSVTTPLLLLDLGLL----AGMSGGHIIMAIVADLIMILTGLFAAFGEEGTPQ----KWGWYTIACIAYIFV--------------IWHLALNGGANATSKGPKLRSFFVAIGGYTLLLWTAYPIVWGLA-DGSRKIGVDGEVIAYAILDVLAKGVFGAWLLITHAKLRES-DVEL</Hsp_hseq>
+      <Hsp_midline>W  F+++ I +      SW  R P  +  ++        +   +  FA LSYF           KI+     D +   F +V   +      RY D+ +T P+L+ DL         +S   II AI      +++G+ A F  EG P+     + WY   C  +IF               +  LA + GA  +    K   F  +      +LW  +P+VW +   G   I  +   +A+ + D++AK  +G  L    A+ R++ D EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|90356817|gb|DY854485.1|</Hit_id>
+  <Hit_def>ApulSEQ3940 Aureobasidium pullulans pBluescript (EcoRI-XhoI) Aureobasidium pullulans cDNA clone ApulSEQ3940, mRNA sequence</Hit_def>
+  <Hit_accession>DY854485</Hit_accession>
+  <Hit_len>899</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.688494</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>898</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>TMDGWYLDTKLNSVAIGAHWSCFIVLTITTF-YLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFAL---------AR---FRKTYDEELFRLLEQLGHDEDEFQKLELDMRLSSNGERLEVLFQ</Hsp_qseq>
+      <Hsp_hseq>TVNGKTADIAITVRGSDWYWTVCAVMTTATFVFLGLG--ITKPRQHRIFHYI--TAAITMVAAIAYFSMGSNLGWTPIDV---EFSRNNPVVRGVNREIFYVRYIDWFITTPLLLMDLLLTAAMPW----PTLLFVVLVDEVMIVTGLVG--ALVRSSYKWGYFVFGC---VALFYVVWVLVWEARRHANALGSDVGRAFTI---CGSLTTF--LWILYPLAWGLC-EGGNVISPDSEAIFYGILDLLAKPVFGALLIWGHRGIDPARLGLYIHDYDEKDPAVKDKVGAPGPNVHP*HQQRRLPPTVKLLTRLFK</Hsp_hseq>
+      <Hsp_midline>T++G   D  +       +W+   V+T  TF +LG     ++    R   Y        +   + +F+M S  G    D     F    P + G        RY D+ +T P+L+ DLL     P+      ++F +L+  V+      G   L   +Y W  + FGC   +  + +V  +V +       L  D G   ++     ++ TF  LWIL+PL W +C  G   I  +   + + + D++AK  +G  L         AR   +   YDE+   + +++G             RL    + L  LF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|304544877|gb|HO343643.1|</Hit_id>
+  <Hit_def>CFHF3836.b1 CFHF Panicum virgatum U601 normalized leaf Panicum virgatum cDNA clone CFHF3836 5&apos;, mRNA sequence</Hit_def>
+  <Hit_accession>HO343643</Hit_accession>
+  <Hit_len>737</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.937396</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>731</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>WSCFIVLTITTFYLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFG------------DVGPFIIGFGNY-RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWF-IFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAI</Hsp_qseq>
+      <Hsp_hseq>WVVTIVMAISSLIFAFRAWQT--PVSKRLFHV-------LTTFITVFATISYFAMATGD--GHSFSHVQVHHKHKHTPDVTDHILRQVFWARYVDWALITPLLLLDLAFLAGLNGANILVAVIADILMIA-LGLFAAYG----RNDGQKWGYYAFSCLAFLVIIYQLAVPGRRAVAAREGRTAQTFTA--------IAGFTL-VIWTLYPIVWAV</Hsp_hseq>
+      <Hsp_midline>W   IV+ I++    + +W +  P  +  F+        L  F+  FA +SYF     D  GH+F             DV   I+    + RY D+ L  P+L+ DL +           A+I  ILM   L  F A G    RN    W  Y F C  F +  Y + +       +R  + AQ   A         A FT  ++W L+P+VWA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|90364726|gb|DY862394.1|</Hit_id>
+  <Hit_def>ApulSEQ16495 Aureobasidium pullulans pBluescript (EcoRI-XhoI) Aureobasidium pullulans cDNA clone ApulSEQ16495, mRNA sequence</Hit_def>
+  <Hit_accession>DY862394</Hit_accession>
+  <Hit_len>736</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>1.34817</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>651</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>VNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFALARFRKTYDEELFRLLEQLGHDEDE</Hsp_qseq>
+      <Hsp_hseq>IAYFSMGSNLGWTPIDV---EFSRNNPVVRGVNREIFYVRYIDWFITTPLLLMDLLLTAAMPW----PTLLFVVLVDEVMIVTGLVG--ALVRSSYKWGYFVFGC---VALFYVVWVLVWEARRHANALGSDVGRAFTI---CGSLTTF--LWILYPLAWGLC-EGGNVISPDSEAIFYGILDLLAKPVFGALLIWGHRGIDPARLGLYI---HDYDE</Hsp_hseq>
+      <Hsp_midline>+ +F+M S  G    D     F    P + G        RY D+ +T P+L+ DLL     P+      ++F +L+  V+      G   L   +Y W  + FGC   +  + +V  +V +       L  D G   ++     ++ TF  LWIL+PL W +C  G   I  +   + + + D++AK  +G  L    +  D     L     HD DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|90360769|gb|DY858437.1|</Hit_id>
+  <Hit_def>ApulSEQ10744 Aureobasidium pullulans pBluescript (EcoRI-XhoI) Aureobasidium pullulans cDNA clone ApulSEQ10744, mRNA sequence</Hit_def>
+  <Hit_accession>DY858437</Hit_accession>
+  <Hit_len>801</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>1.69719</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>796</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>YVGTMDGWYLDTKLNSVAIGAHWSCFIVLTITTF-YLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFALARFRKTYDEELFRLLEQLGHDEDE</Hsp_qseq>
+      <Hsp_hseq>YGNTVNGKTADIAITVRGSDWYWTVCAVMTTATFVFLGLG--ITKPRQHRIFHYI--TAAITMVAAIAYFSMGSNLGWTPIDV---EFSRNNPVVRGVNREIFYVRYIDWFITTPLLLMDLLLTAAMPW----PTLLFVVLVDEVMIVTGLVG--ALVRSSYKWGYFVFGC---VALFYVVWVLVWEARRHANALGSDVGRAFTI---CGSLTTF--LWILYPLAWGLC-EGGNVISPDSEAIFYGILDLLAKPVFGALPIWGHRGLDPARLGLYIHQLHKKDP</Hsp_hseq>
+      <Hsp_midline>Y  T++G   D  +       +W+   V+T  TF +LG     ++    R   Y        +   + +F+M S  G    D     F    P + G        RY D+ +T P+L+ DLL     P+      ++F +L+  V+      G   L   +Y W  + FGC   +  + +V  +V +       L  D G   ++     ++ TF  LWIL+PL W +C  G   I  +   + + + D++AK  +G       +  D     L     H +D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|90367219|gb|DY864887.1|</Hit_id>
+  <Hit_def>ApulSEQ000587 Aureobasidium pullulans pBluescript (EcoRI-XhoI) Aureobasidium pullulans cDNA clone ApulSEQ000587, mRNA sequence</Hit_def>
+  <Hit_accession>DY864887</Hit_accession>
+  <Hit_len>835</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>1.823</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>765</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>GTMDGWYLDTKLNSVAIGAHWSCFIVLTITTF-YLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSC</Hsp_qseq>
+      <Hsp_hseq>NTVNGKTADIAITVRGSDWYWTVCAVMTTATFVFLGLG--ITKPRQHRIFHY--ITAAITMVAAIAYFSMGSNLGWTPIDV---EFSRNNPVVRGVNREIFYVRYIDWFITTPLLLMDLLLTAAMPW----PTLLFVVLVDEVMIVTGLVG--ALVRSSYKWGYFVFGC---VALFYVVWVLVWEARRHANALGSDVGRAFTI---CGSLTTF--LWILYPLAWGLC-EGGNVISPDSEAIFYGILDLLAKAC</Hsp_hseq>
+      <Hsp_midline> T++G   D  +       +W+   V+T  TF +LG     ++    R   Y        +   + +F+M S  G    D     F    P + G        RY D+ +T P+L+ DLL     P+      ++F +L+  V+      G   L   +Y W  + FGC   +  + +V  +V +       L  D G   ++     ++ TF  LWIL+PL W +C  G   I  +   + + + D++AK+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|189417547|emb|CU903869.1|</Hit_id>
+  <Hit_def>CU903869 Mycelium grown for 48h Podospora anserina cDNA clone HH0AB29CD12, mRNA sequence</Hit_def>
+  <Hit_accession>CU903869</Hit_accession>
+  <Hit_len>1156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>1.98892</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>455</Hsp_hit-from>
+      <Hsp_hit-to>877</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYA-EGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEV-AHCVCDIVAKSCYGFAL</Hsp_qseq>
+      <Hsp_hseq>RYVDWAITTPLLLLDLSLLAGIDGAHTLMAVIADVIM--VLSGLFASQGETATQR--WGWYAIGCVSYLF----VIWHVALHGARTVT-AKGRGVTRLFSSL--ALFTF-VLWTAYPIVWGIADGAHRTTVD--TEILIYAVLDILAKPVFGFWL</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL          +  A+I  ++M  VL+  +A +G+   +   + WY  GC  ++F    V+  VA   +R    A+  G       L  A+FTF +LW  +P+VW I         D  TE+  + V DI+AK  +GF L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|320048167|emb|FQ037553.1|</Hit_id>
+  <Hit_def>FQ037553 Leptosphaeria maculans IBCN18 mycelium grown in oilseed rape-juice for 5 days and 8 hours Leptosphaeria maculans cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>FQ037553</Hit_accession>
+  <Hit_len>750</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>2.14732</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>705</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>WSCFIVLTITTFYLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFG----KIVADTLGHNFGDVGPFIIGFGNY-RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>WVVFVLMLIASAAFTALSW--KIPVNR-RLYHVITTIITLTAALSYFAMATGHGVALNKIVIRTQHDHVPDTYETVYRQVYYARYIDWAITTPLLLLDLGLLAGMSGAHIFMAIVADLIMVLTGLFAAFGSEGTPQ----KWGWYTIACIAYIF---VVWHLVLNGGAN----ARVKGEKLRSFFVAIGAYTL-ILWTAYPIVWGLAD-GARKIGVDGEIIAYAVLDVLAKGVFG</Hsp_hseq>
+      <Hsp_midline>W  F+++ I +      SW  + P  R   Y        L   +++FAM +  G    KIV  T   +  D    +     Y RY D+ +T P+L+ DL             AI+  ++M  +G+ A F +EG P+     + WY   C  +IF   +V  +V    +     A+  G +     +    +T  +LW  +P+VW +   G   I  +   +A+ V D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|189157132|emb|CU880858.1|</Hit_id>
+  <Hit_def>CU880858 Perithecia older than 48h Podospora anserina cDNA clone HH0ABE6YO16, mRNA sequence</Hit_def>
+  <Hit_accession>CU880858</Hit_accession>
+  <Hit_len>1161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>2.23787</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>448</Hsp_hit-from>
+      <Hsp_hit-to>870</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYA-EGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEV-AHCVCDIVAKSCYGFAL</Hsp_qseq>
+      <Hsp_hseq>RYVDWAITTPLLLLDLSLLAGIDGAHTLMAVIADVIM--VLSGLFASQGETATQR--WGWYAIGCVSYLF----VIWHVALHGARTVT-AKGRGVTRLFSSL--ALFTF-VLWTAYPIVWGIADGAHRTTVD--TEILIYAVLDILAKPVFGFWL</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL          +  A+I  ++M  VL+  +A +G+   +   + WY  GC  ++F    V+  VA   +R    A+  G       L  A+FTF +LW  +P+VW I         D  TE+  + V DI+AK  +GF L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|320049744|emb|FQ038402.1|</Hit_id>
+  <Hit_def>FQ038402 Leptosphaeria maculans v23.1.3 full-length-enriched mycelium grown for 48h in Fries liquid medium Leptosphaeria maculans cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>FQ038402</Hit_accession>
+  <Hit_len>697</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>2.82648</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYIDWAITTPLLLLDLGLLAGMSGAHIFMAIVADLIMVLTGLFAAFGSEGTPQ----KWGWYTIACIAYIF---VVWHLVLNGGAN----ARVKGEKLRSFFVAIGAYTL-ILWTAYPIVWGLAD-GARKIGVDGEIIAYAVLDVLAKGVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL             AI+  ++M  +G+ A F +EG P+     + WY   C  +IF   +V  +V    +     A+  G +     +    +T  +LW  +P+VW +   G   I  +   +A+ V D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|320050182|emb|FQ040634.1|</Hit_id>
+  <Hit_def>FQ040634 Leptosphaeria maculans v23.1.3 full-length-enriched mycelium grown for 48h in Fries liquid medium Leptosphaeria maculans cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>FQ040634</Hit_accession>
+  <Hit_len>575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>3.74462</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYIDWAITTPLLLLDLGLLAGMSGAHIFMAIVADLIMVLTGLFAAFGSEGTPQ----KWGWYTIACIAYIF---VVWHLVLNGGAN----ARVKGEKLRSFFVAIGAYTL-ILWTAYPIVWGLAD-GARKIGVDGEIIAYAVLDVLAKGVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL             AI+  ++M  +G+ A F +EG P+     + WY   C  +IF   +V  +V    +     A+  G +     +    +T  +LW  +P+VW +   G   I  +   +A+ V D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|320046910|emb|FQ072104.1|</Hit_id>
+  <Hit_def>FQ072104 Leptosphaeria maculans IBCN18 mycelium grown in oilseed rape-juice for 5 days and 8 hours Leptosphaeria maculans cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>FQ072104</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>3.80796</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>519</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYIDWAITTPLLLLDLGLLAGMSGAHIFMAIVADLIMVLTGLFAAFGSEGTPQ----KWGWYTIACIAYIF---VVWHLVLNGGAN----ARVKGEKLRSFFVAIGAYTL-ILWTAYPIVWGLAD-GARKIGVDGEIIAYAVLDVLAKGVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL             AI+  ++M  +G+ A F +EG P+     + WY   C  +IF   +V  +V    +     A+  G +     +    +T  +LW  +P+VW +   G   I  +   +A+ V D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|320045008|emb|FQ033134.1|</Hit_id>
+  <Hit_def>FQ033134 Leptosphaeria maculans IBCN18 mycelium grown in oilseed rape-juice for 5 days and 8 hours Leptosphaeria maculans cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>FQ033134</Hit_accession>
+  <Hit_len>704</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>4.25786</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYIDWAITTPLLLLDLGLLAGMSGAHIFMAIVADLIMVLTGLFAAFGSEGTPQ----KWGWYTIACIAYIF---VVWHLVLNGGAN----ARVKGEKLRSFFVAIGAYTL-ILWTAYPIVWGLAD-GARKIGVDGEIIAYAVLDVLAKGVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL             AI+  ++M  +G+ A F +EG P+     + WY   C  +IF   +V  +V    +     A+  G +     +    +T  +LW  +P+VW +   G   I  +   +A+ V D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|90359855|gb|DY857523.1|</Hit_id>
+  <Hit_def>ApulSEQ8841 Aureobasidium pullulans pBluescript (EcoRI-XhoI) Aureobasidium pullulans cDNA clone ApulSEQ8841, mRNA sequence</Hit_def>
+  <Hit_accession>DY857523</Hit_accession>
+  <Hit_len>857</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>4.60795</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>773</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>TMDGWYLDTKLNSVAIGAHWSCFIVLTITTF-YLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>TVNGKTADIAITVRGSDWYWTVCAVMTTATFVFLGLG--ITKPRQHRIFHY--ITAAITMVAAIAYFSMGSNLGWTPIDV---EFSRNNPVVRGVNREIFYVRYIDWFITTPLLLMDLLLTAAMPW----PTLLFVVLVDEVMIVTGLVG--ALVRSSYKWGYFVFGC---VALFYVVWVLVWEARRHANALGSDVGRAFTIC---GSLTTF--LWILYPLAWGLC-EGGNVISPDSEAIFYGILDLLAKPVFG</Hsp_hseq>
+      <Hsp_midline>T++G   D  +       +W+   V+T  TF +LG     ++    R   Y        +   + +F+M S  G    D     F    P + G        RY D+ +T P+L+ DLL     P+      ++F +L+  V+      G   L   +Y W  + FGC   +  + +V  +V +       L  D G   ++     ++ TF  LWIL+PL W +C  G   I  +   + + + D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|90366311|gb|DY863979.1|</Hit_id>
+  <Hit_def>ApulSEQ18946 Aureobasidium pullulans pBluescript (EcoRI-XhoI) Aureobasidium pullulans cDNA clone ApulSEQ18946, mRNA sequence</Hit_def>
+  <Hit_accession>DY863979</Hit_accession>
+  <Hit_len>805</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>4.79984</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>764</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>TMDGWYLDTKLNSVAIGAHWSCFIVLTITTF-YLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>TVNGKTADIAITVRGSDWYWTVCAVMTTATFVFLGLG--ITKPRQHRIFHY--ITAAITMVAAIAYFSMGSNLGWTPIDV---EFSRNNPVVRGVNREIFYVRYIDWFITTPLLLMDLLLTAAMPW----PTLLFVVLVDEVMIVTGLVG--ALVRSSYKWGYFVFGC---VALFYVVWVLVWEARRHANALGSDVGRAFTIC---GSLTTF--LWILYPLAWGLC-EGGNVISPDSEAIFYGILDLLAKPVFG</Hsp_hseq>
+      <Hsp_midline>T++G   D  +       +W+   V+T  TF +LG     ++    R   Y        +   + +F+M S  G    D     F    P + G        RY D+ +T P+L+ DLL     P+      ++F +L+  V+      G   L   +Y W  + FGC   +  + +V  +V +       L  D G   ++     ++ TF  LWIL+PL W +C  G   I  +   + + + D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|90364043|gb|DY861711.1|</Hit_id>
+  <Hit_def>ApulSEQ15475 Aureobasidium pullulans pBluescript (EcoRI-XhoI) Aureobasidium pullulans cDNA clone ApulSEQ15475, mRNA sequence</Hit_def>
+  <Hit_accession>DY861711</Hit_accession>
+  <Hit_len>839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>4.95878</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>773</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>TMDGWYLDTKLNSVAIGAHWSCFIVLTITTF-YLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>TVNGKTADIAITVRGSDWYWTVCAVMTTATFVFLGLG--ITKPRQHRIFHYI--TAAITMVAAIAYFSMGSNLGWTPIDV---EFSRNNPVVRGVNREIFYVRYIDWFITTPLLLMDLLLTAAMPW----PTLLFVVLVDEVMIVTGLVG--ALVRSSYKWGYFVFGC---VALFYVVWVLVWEARRHANALGSDVGRAFTI---CGSLTTF--LWILYPLAWGLC-EGGNVISPDSEAIFYGILDLLAKPVFG</Hsp_hseq>
+      <Hsp_midline>T++G   D  +       +W+   V+T  TF +LG     ++    R   Y        +   + +F+M S  G    D     F    P + G        RY D+ +T P+L+ DLL     P+      ++F +L+  V+      G   L   +Y W  + FGC   +  + +V  +V +       L  D G   ++     ++ TF  LWIL+PL W +C  G   I  +   + + + D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|67007053|gb|DR067982.1|</Hit_id>
+  <Hit_def>vco01-6ms1-a06 Vco01 Vaccinium corymbosum cDNA clone vco01-6ms1-a06 5&apos;, mRNA sequence</Hit_def>
+  <Hit_accession>DR067982</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>5.28364</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>DYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIF-AYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>DWFVTTPLLLLXLLLTAGLP----TPTIMFTILINEIMVVTGLIG--ALVKSSYKWGFFVFGCVAFFFVAYTVVFE--GRSYAK--SLGNDIAKTYTLC----GVWTIS-LWFLYPIAWGVSEGG-NVIPSDSEAVFYGILDILAKPGFG</Hsp_hseq>
+      <Hsp_midline>D+ +T P+L+  LL     P       I+F IL++ ++      G   L   +Y W  + FGC  F F AY++V     + Y++   L  D    ++L      V+T S LW L+P+ W +   G   I  +   V + + DI+AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|90360666|gb|DY858334.1|</Hit_id>
+  <Hit_def>ApulSEQ10576 Aureobasidium pullulans pBluescript (EcoRI-XhoI) Aureobasidium pullulans cDNA clone ApulSEQ10576, mRNA sequence</Hit_def>
+  <Hit_accession>DY858334</Hit_accession>
+  <Hit_len>822</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>5.54355</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>786</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>TMDGWYLDTKLNSVAIGAHWSCFIVLTITTF-YLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAW--YGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>TVNGKTADIAITVRGSDWYWTVCAVMTTATFVFLGLG--ITKPRQHRIFHY--ITAAITMVAAIAYFSMGSNLGWTPIDV---EFSRNNPVVRGVNREIFYVRYIDWFITTPLLLMDLLLTAAMPW----PTLLFVVLVDEVMIVTGLVG--ALVRSSYKWGYFVFGC---VALFYVVWVLVWEARRHANALGSDVGRAFTI---CGSLTTF--LWILYPLAWGLC-EGGNVISPDSEAIFYGILDLLAKPVFG</Hsp_hseq>
+      <Hsp_midline>T++G   D  +       +W+   V+T  TF +LG     ++    R   Y        +   + +F+M S  G    D     F    P + G        RY D+ +T P+L+ DLL     P+      ++F +L+  V+      G   L   +Y W  + FGC   +  + +V  +V +       L  D G   ++     ++ TF  LWIL+PL W +C  G   I  +   + + + D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|290459528|gb|FE532831.1|</Hit_id>
+  <Hit_def>MF11-03_M13F-H08 FL, mycelia grown in Flies medium at room temperature Pseudocercospora fijiensis cDNA clone MF11-03_M13F-H08 5&apos;, mRNA sequence</Hit_def>
+  <Hit_accession>FE532831</Hit_accession>
+  <Hit_len>894</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>5.59227</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>815</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>SRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFAL</Hsp_qseq>
+      <Hsp_hseq>TRPRTDRVFFYI--SAAINLTAFVAYYSMGSHLGWTPIDV---EFSRTDDKVAGVNREIFYARYVDWVITTPLLLLDLLLTAGLPWQ----TILWATFLDEVMIVTGLLGALVKTRYKWGYYTIGC---VAMFGVFWSLIGQ--GRLH--AKHLGSDVSRVYFQCGILTL-FVWTLYPVAWGLCEGGNVIAPDS-KAVFYGVLDFVAKTIFSIAL</Hsp_hseq>
+      <Hsp_midline>+R  + R  FY       NL  FV +++M S+ G    D     F      + G        RY D+++T P+L+ DLL     P++     I++A  +  V+      G        + +Y  GC   +  + +  S++ +   RL   A+  G++ S    +  + T   +W L+P+ W +C  G     D+   V + V D VAK+ +  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|320049412|emb|FQ040323.1|</Hit_id>
+  <Hit_def>FQ040323 Leptosphaeria maculans v23.1.3 full-length-enriched mycelium grown for 48h in Fries liquid medium Leptosphaeria maculans cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>FQ040323</Hit_accession>
+  <Hit_len>745</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>5.7666</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>RYIDWAITTPLLLLDLGLLAGMSGAHIFMAIVADLIMVLTGLFAAFGSEGTPQ----KWGWYTIACIAYIF---VVWHLVLNGGAN----ARVKGEKLRSFFVAIGAYTL-ILWTAYPIVWGLAD-GARKIGVDGEIIAYAVLDVLAKGVFG</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DL             AI+  ++M  +G+ A F +EG P+     + WY   C  +IF   +V  +V    +     A+  G +     +    +T  +LW  +P+VW +   G   I  +   +A+ V D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|237519615|gb|GO794081.1|</Hit_id>
+  <Hit_def>CLS_cLiFpEfI12na_27a1_1_a09cLibkit5LD_A05 CLS_cLiFpEfI12na_plant Festuca pratensis cDNA clone 27a09 5&apos;, mRNA sequence</Hit_def>
+  <Hit_accession>GO794081</Hit_accession>
+  <Hit_len>915</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>6.79304</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>817</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFAL</Hsp_qseq>
+      <Hsp_hseq>RYIDWFITTPLLLLDLLLTAGMPW----PTILWTVIVDEIMIITGLVGALVVSEYKWGYFAFGCFALVY---IVYQLVWE--ARLHARAYGRDIERAFTICGSMT---AFLWILYPIAWGIC-EGGNLISPDSEAVFYGVLDFLAKPIFGALL</Hsp_hseq>
+      <Hsp_midline>RY D+ +T P+L+ DLL     P+      I++ +++  ++      G   +    + ++ FGCF  ++   IV  +V +  +RL   A     E +  +        + LWIL+P+ W IC  G   I  +   V + V D +AK  +G  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|290459287|gb|FE532590.1|</Hit_id>
+  <Hit_def>MF11-01_M13F-D07 FL, mycelia grown in Flies medium at room temperature Pseudocercospora fijiensis cDNA clone MF11-01_M13F-D07 5&apos;, mRNA sequence</Hit_def>
+  <Hit_accession>FE532590</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>8.00101</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>840</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>SRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFGKIVADTLGHNFGDVGPFIIGFGN----YRYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFALARFRKTYD</Hsp_qseq>
+      <Hsp_hseq>TRPRTDRVFFYI--SAAINLTAFVAYYSMGSHLGWTPIDV---EFSRTDDKVAGVNREIFYARYVDWVITTPLLLLDLLLTAGLPWQ----TILWATFLDEVMIVTGLLGALVKTRYKWGYYTIGC---VAMFGVFWSLIGQ--GRLH--AKHLGSDVSRVYFQCGILTL-FVWTLYPVAWGLCEGGNVIAPDS-EAVFYGVLDFVAKPIFSLALGWGHWNFD</Hsp_hseq>
+      <Hsp_midline>+R  + R  FY       NL  FV +++M S+ G    D     F      + G        RY D+++T P+L+ DLL     P++     I++A  +  V+      G        + +Y  GC   +  + +  S++ +   RL   A+  G++ S    +  + T   +W L+P+ W +C  G     D+   V + V D VAK  +  AL      +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|320051046|emb|FQ034308.1|</Hit_id>
+  <Hit_def>FQ034308 Leptosphaeria maculans IBCN18 mycelium grown in oilseed rape-juice for 5 days and 8 hours Leptosphaeria maculans cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>FQ034308</Hit_accession>
+  <Hit_len>708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>9.90302</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>698</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>WSCFIVLTITTFYLGYESWTSRGPSKRTSFYAGYQEEQNLALFVNFFAMLSYFG----KIVADTLGHNFGDVGPFIIGFGNY-RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILM--SGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFAYSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAIC--PRGFGWIDDNWTEVAHCVCDIVAKSCYG</Hsp_qseq>
+      <Hsp_hseq>WVVFVLMLIASAAFTALSW--KIPVNR-RLYHVITTIITLTAALSYFAMATGHGVALNKIVIRTQHDHVPDTYETVYRQVYYARYIDWAITTPLLLLDLGLLAGMSGAHIFMAIVADLIMVLTGLFAAFGSEGTPQ----KWGWYTIACIAYIF---VVWHLVLNGGAN----ARVKGEKLRSFFVAIGAYTL-ILWTAYPIVWGLADGARKIGVYGE---IIAYAVLDVLAKGVFG</Hsp_hseq>
+      <Hsp_midline>W  F+++ I +      SW  + P  R   Y        L   +++FAM +  G    KIV  T   +  D    +     Y RY D+ +T P+L+ DL             AI+  ++M  +G+ A F +EG P+     + WY   C  +IF   +V  +V    +     A+  G +     +    +T  +LW  +P+VW +    R  G   +    +A+ V D++AK  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|320050402|emb|FQ033664.1|</Hit_id>
+  <Hit_def>FQ033664 Leptosphaeria maculans IBCN18 mycelium grown in oilseed rape-juice for 5 days and 8 hours Leptosphaeria maculans cDNA, mRNA sequence</Hit_def>
+  <Hit_accession>FQ033664</Hit_accession>
+  <Hit_len>753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>9.93668</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>RYADYMLTCPMLVYDLLYQLRAPYRVSCSAIIFAILMSGVLAEFYAEGDPRLRNGAYAWYGFGCFWFIFA-YSIVMSIVAKQYSRLAQLAQDTGAEHSLHVLKFAVFTFSMLWILFPLVWAICPRGFGWIDDNWTEVAHCVCDIVAKSCYGFALARFRKTYDEELFRLLEQLGHDED</Hsp_qseq>
+      <Hsp_hseq>RYIDWVITTPLLLLDLLLTAGMPW----PTIIFVILIDEIMIVTGLVGALVVSSYKWGFFAFGCAALVYVVYQLVWE--SRRHSKF------FGRDVERTFLLCGSLT-SFLWILYPVAWGLC-EGGNVISPDSEAVFYGVLDFLAKPIFGALLIWGHRNVDPARLGLAIRDYGDAD</Hsp_hseq>
+      <Hsp_midline>RY D+++T P+L+ DLL     P+      IIF IL+  ++      G   + +  + ++ FGC   ++  Y +V    ++++S+        G +     L     T S LWIL+P+ W +C  G   I  +   V + V D +AK  +G  L    +  D     L  +   D D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>77559484</Statistics_db-num>
+      <Statistics_db-len>391349178</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
