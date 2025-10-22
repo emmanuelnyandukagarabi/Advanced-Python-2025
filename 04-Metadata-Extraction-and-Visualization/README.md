@@ -16,9 +16,9 @@ Each student will be responsible for one part of the workflow — from reading a
 
 2. They push the cloned content to their group repo:
 
-   git remote remove origin
-   git remote add origin https://github.com/...../data-infra-name-of-the-group.git
-   git push -u origin main
+   - git remote remove origin
+   - git remote add origin https://github.com/...../data-infra-name-of-the-group.git
+   - git push -u origin main
 
 3. Each student should:
    - **Clone** the repository.
